@@ -1,0 +1,58 @@
+#logo {
+	height: 150px;
+	width: 270px;
+	margin-left: 20px;
+	margin-bottom: 40px;
+	margin-right: 20px;
+	float: left;
+}
+
+#title {
+	padding-top: 20px}
+
+
+.dropbtn {
+	color: white;
+	padding: 16px;
+	font-size: 15px;
+	border: none;
+	cursor: pointer;
+}
+
+.dropdown {
+	position: relative;
+	float: left;
+}
+
+.dropdown-content  {
+	display: none;
+	position: absolute;
+	min-width: 160px;
+}
+
+.dropdown-content a {
+	font-size: 14px;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: gray;
+}
+
+#signInButton {
+	margin-left: 20px;
+	float: left;
+}
+
+#cartIcon {
+	height: 30px;
+	width: 30px;
+}
